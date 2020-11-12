@@ -1,5 +1,5 @@
 {% set name = "concurrent-log-handler" %}
-{% set version = "0.9.17" %}
+{% set version = "0.9.18" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7031e854638b13af0c433f5edd7abf26f1da445f7f76a8e7205da91a4b09767f
+  sha256: b7d4624a1950d326ea67e42d6078081e14dc7ea7f8fd507c2d892b3f4d9861e7
   patches:
     - 0001-Removed-ez_setup-from-the-setup-process.patch
 
