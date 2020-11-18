@@ -5,11 +5,9 @@ Home: https://github.com/Preston-Landers/concurrent-log-handler
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/concurrent-log-handler-feedstock/blob/master/LICENSE.txt)
 
 Summary: RotatingFileHandler replacement with concurrency, gzip and Windows support
-
-
 
 Current build status
 ====================
