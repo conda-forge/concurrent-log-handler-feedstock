@@ -1,5 +1,5 @@
 {% set name = "concurrent-log-handler" %}
-{% set version = "0.9.19" %}
+{% set version = "0.9.20" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b12f79abed3f94121c25ce9c24cdb57d889282ec6ff61f5535ab2068dc37d409
+  sha256: 9fa2ad61474a137b5642702bd33f21815598aacba1e75139b37ceb2cedda8f9f
 
 build:
   number: 0
