@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     # Add minimum run constraint since in py2 there is an upper bound on portalocker
     - python >={{ python_min }}
