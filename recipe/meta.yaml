@@ -1,5 +1,5 @@
 {% set name = "concurrent-log-handler" %}
-{% set version = "0.9.30" %}
+{% set version = "0.9.31" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 163c97f72efce386065bf58b9d73a17c45f6d626c067c5f1fdb442184ee4c435
+  sha256: 2f973d574f083e5692dfef471931f416daf274bbde8b430ed5d9796c532b97cd
 
 build:
   number: 0
